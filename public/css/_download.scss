@@ -1,0 +1,94 @@
+$them:#28A79E;
+.dwonload-img {
+    position: relative;
+}
+
+.download {
+    background-color: #EBF1F8;
+}
+
+.downloadable-file {
+    width: 159px !important;
+    height: 140px !important;
+    >img {
+        width: 158px !important;
+        height: 139px !important;
+    }
+}
+
+.loading {
+    position: absolute;
+    bottom: 0;
+    background-color: #28A79E;
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.loading span {
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.restatrt-btn {
+    background-color: $them !important;
+    color: #fff !important;
+    border-radius: 35px;
+    padding: 12px 35px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 27px;
+}
+
+#send-btn{
+    top: 0;
+    right: 0;
+    background-color: #28A79E;
+    color: white;
+}
+
+#share-label{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#share{
+    border: 1px solid grey;
+}
+
+.share-icon{
+    width: 45px;
+}
+
+#share-container{
+    margin-top: 35px;
+}
+
+.share-icon{
+    width: 35px;
+}
+
+#copyLink:hover{
+    color: white !important;
+}
+
+
+// media
+@media screen and (max-width: 576px) {
+    .download-btn {
+        padding: 7px 28px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .download-btn {
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,335 @@
+$jpg-btn: #ED5929;
+$jpg-text:#404040;
+$them:#28A79E;
+.file-view>h5 {
+    color: $jpg-text;
+    font-size: 30px;
+}
+
+.customize-imgs {
+    border-radius: 20px;
+    padding: 36px;
+    h5 {
+        font-family: Metropolis-medium;
+        font-size: 26px;
+        margin-bottom: 21px;
+    }
+}
+
+.mypreview {
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+
+.previewofimg {
+    border: 1px solid #28A79E;
+    border-radius: 8px;
+    width: 133px;
+    height: 111px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease-out;
+    .file-name {
+        text-align: center;
+        position: absolute;
+        font-size: 12px;
+        color: #2A2640;
+        font-weight: 500;
+        bottom: -19px;
+        left: 22%;
+    }
+    >img {
+        width: 133px;
+        border-radius: 8px;
+        height: 109px;
+    }
+    .cross-btn {
+        top: -6px;
+        right: -8px;
+        position: absolute;
+    }
+}
+
+.uploadmorefiles {
+    background-color: #EDEDED;
+    border-radius: 8px;
+    width: 133px;
+    height: 119px !important;
+    padding: 0px 41px;
+}
+
+// customimg-section
+.custom-section {
+    border-left: 1px solid #D4D4D4;
+    padding: 5px 33px;
+    .my-nav-btn1.active {
+        background-color: #28A79E;
+        color: #fff;
+    }
+    .my-nav-btn1 {
+        font-family: Metropolis-medium;
+        background-color: #EBF1F8;
+        color: #000;
+        border-top-left-radius: 37px;
+        border-bottom-left-radius: 37px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .my-nav-btn2.active {
+        background-color: #28A79E;
+        color: #fff;
+    }
+    .my-nav-btn2 {
+        font-family: Metropolis-medium;
+        background-color: #EBF1F8;
+        color: #000;
+        border-top-right-radius: 37px;
+        border-bottom-right-radius: 37px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .btn-padding {
+        padding: 18px 24px;
+    }
+    .Percentage>span {
+        font-size: 20px;
+        color: $jpg-text;
+        font-family: Metropolis-regular;
+    }
+}
+
+#myinput {
+    background: linear-gradient(to right, #28A79E 0%, #28A79E 50%, #EBF1F8 50%, #EBF1F8 100%);
+    border-radius: 8px;
+    width: 356px;
+    outline: none;
+    -webkit-appearance: none;
+    height: 13px;
+    width: 100%;
+}
+
+#myinput::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    border-radius: 100%;
+    background-color: #28A79E;
+    height: 23px;
+    width: 23px;
+    margin-top: -2px;
+    box-shadow: 0 0 2px #000000;
+}
+
+.suggestion {
+    background-color: #F6F6F6;
+    border-radius: 8px;
+    padding: 14px 42px;
+    position: relative;
+    margin-top: 18px;
+}
+
+.suggestion::before {
+    content: url("../assets/imges/icons/compresspage/info.svg");
+    position: absolute;
+    left: 18px;
+    width: 20px;
+    top: 17px;
+    height: 20px;
+}
+
+.percentage-value {
+    color: #28A79E;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.mysizeinput {
+    width: 108px;
+    height: 48px;
+    background-color: #EBF1F8;
+    border-radius: 4px;
+    border: unset;
+    position: relative;
+    padding: 10px;
+}
+
+.addsize {
+    position: relative;
+}
+
+.mypx {
+    background-color: #28A79E;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.compress-file-btn {
+    background-color: $jpg-btn !important;
+    color: #fff !important;
+    border-radius: 35px;
+    padding: 11px 22px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 33px;
+}
+
+.form-check-input {
+    border-color: #28A79E !important;
+    width: 20px;
+    height: 20px;
+}
+
+.form-check-input:checked {
+    background-color: #28A79E !important;
+}
+
+.mycheckboxes {
+    margin-top: 22px;
+    margin-bottom: 30px;
+}
+
+.img-size-type-dropdown {
+    border-radius: 0;
+    height: 98%;
+    background-color: #EBF1F8 !important;
+    border: 0;
+    color: #000 !important;
+}
+
+.mypx-img-mb {
+    right: 38px !important;
+    border-radius: 0 !important;
+}
+
+.my-nav-pills {
+    margin-bottom: 27px;
+}
+
+.range {
+    margin-top: 15px;
+}
+
+// media
+
+@media screen and (max-width: 386px){
+    .addsize{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 298px){
+    .mypreview{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .img-preview {
+        justify-content: center !important;
+    }
+    .custom-section {
+        border: unset;
+    }
+    .customize-imgs h5 {
+        margin-top: 5px;
+    }
+    .custom-section {
+        padding: unset;
+    }
+    .add-custom-size {
+        justify-content: center !important;
+    }
+    .previewofimg {
+        width: 107px;
+        height: 92px;
+    }
+    .uploadmorefiles {
+        max-width: 50px;
+        top: -8px;
+        position: absolute;
+        max-height: 49px;
+        right: 6px;
+        padding: 1px;
+    }
+    .file-view {
+        position: relative;
+    }
+    .compress-file-btn {
+        padding: 4px 11px;
+    }
+    .uploadmorefiles img {
+        width: 20px;
+    }
+    .customize-imgs {
+        padding: 14px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .mypreview {
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 366px) {
+    .addsize {
+        margin-top: 20px;
+    }
+    .add-custom-size>div {
+        justify-content: center !important;
+    }
+    .add-custom-size2>div {
+        justify-content: center !important;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .custom-section .btn-padding {
+        padding: 10px 6px;
+    }
+    .custom-section {
+        padding: 5px 17px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .custom-section .btn-padding {
+        padding: 10px 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .custom-section .btn-padding {
+        padding: 12px 15px;
+        font-size: 11px;
+    }
+}
+
+// @media screen and (max-width: 576px) {
+//     .custom-section .my-nav-btn2 {
+//         padding: 14px 35px !important;
+//         font-size: 10px;
+//     }
+//     .custom-section .my-nav-btn1 {
+//         padding: 14px 35px !important;
+//         font-size: 10px;
+//     }
+//     .custom-section .my-nav-btn1.active {
+//         padding: 14px 35px !important;
+//     }
+//     .custom-section .my-nav-btn2.active {
+//         padding: 14px 35px !important;
+//     }
+// }
+
+

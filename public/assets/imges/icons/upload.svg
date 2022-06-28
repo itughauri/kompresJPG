@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="129.667" height="118.951" viewBox="0 0 129.667 118.951">
+  <defs>
+    <filter id="Path_9815" x="31.008" y="47.416" width="67.65" height="71.535" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_3933" data-name="Group 3933" transform="translate(-587.975 -262.622)">
+    <path id="Path_9811" data-name="Path 9811" d="M346.132,322.152c-.545,0-1.085.02-1.621.057a22.346,22.346,0,0,0-35.464-14.029,23.537,23.537,0,0,0-44.022,11.589,23.8,23.8,0,0,0,.125,2.439c-.534-.036-1.072-.056-1.615-.056a23.535,23.535,0,1,0,0,47.07h82.6a23.535,23.535,0,1,0,0-47.07Z" transform="translate(347.975 -33.612)" fill="#28a79e"/>
+    <path id="Path_9812" data-name="Path 9812" d="M346.132,322.152c-.545,0-1.085.02-1.621.057a22.346,22.346,0,0,0-35.464-14.029,23.537,23.537,0,0,0-44.022,11.589,23.8,23.8,0,0,0,.125,2.439c-.534-.036-1.072-.056-1.615-.056a23.535,23.535,0,1,0,0,47.07h82.6a23.535,23.535,0,1,0,0-47.07Z" transform="translate(347.975 -33.612)" fill="#6dc2bc"/>
+    <path id="Path_9813" data-name="Path 9813" d="M315.251,317.825a22.724,22.724,0,0,0-29.624,21.637,23,23,0,0,0,.121,2.354c-.515-.035-1.034-.054-1.558-.054A22.712,22.712,0,0,0,264.5,375.784c-.866-10.247.684-29.81,25.245-29.331C289.489,339.763,290.675,318.79,315.251,317.825Z" transform="translate(330.834 -49.986)" fill="#84c9c4"/>
+    <path id="Path_9814" data-name="Path 9814" d="M412.872,533.365h71.216a23.541,23.541,0,0,0,22.169-31.445C490.782,532.4,438.443,529.7,412.872,533.365Z" transform="translate(210.018 -197.755)" fill="#84c9c4"/>
+    <path id="Path_9816" data-name="Path 9816" d="M464.093,639.19h39.145l-4.662-4.662c-11.572,1.86-23.315,2.6-33.258,3.436Z" transform="translate(169.143 -303.58)" fill="#3966a5"/>
+    <g transform="matrix(1, 0, 0, 1, 587.97, 262.62)" filter="url(#Path_9815)">
+      <path id="Path_9815-2" data-name="Path 9815" d="M449.552,585.529v28.71h26.72v-28.71h11.465L462.912,560.7l-24.825,24.825Z" transform="translate(-398.08 -507.29)" fill="#28a79e"/>
+    </g>
+  </g>
+</svg>

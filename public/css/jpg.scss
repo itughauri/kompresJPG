@@ -1,0 +1,143 @@
+    @import "navbar";
+    @import "upload";
+    @import "compress";
+    @import"download";
+    @import"blog";
+    $jpg-btn: #ED5929;
+    $jpg-text:#404040;
+    $them:#28A79E;
+    @font-face {
+        font-family: Metropolis-Bold;
+        src: url(../assets/font/\/Metropolis-Bold.otf);
+    }
+    
+    @font-face {
+        font-family: Metropolis-semiBold;
+        src: url(../assets/font/\/Metropolis-SemiBold.otf);
+    }
+    
+    @font-face {
+        font-family: Metropolis-medium;
+        src: url(../assets/font/\/Metropolis-Medium.otf);
+    }
+    
+    @font-face {
+        font-family: Metropolis-regular;
+        src: url(../assets/font/\/Metropolis-Regular.otf);
+    }
+    
+    body {
+        margin: 0;
+    }
+    
+    .btn:focus {
+        box-shadow: unset;
+        outline: 0;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    p {
+        text-align: justify;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    li,
+    a {
+        color: $jpg-text;
+    }
+    
+    p,
+    li,
+    label {
+        font-family: Metropolis-regular;
+    }
+    
+    .heading-hr {
+        height: 2px !important;
+        color: $them;
+        opacity: 1;
+    }
+    
+    .py-40 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .blog-detail-title {
+        color: $jpg-text;
+        font-family: Metropolis-medium;
+        font-size: 34px;
+    }
+    
+    .section-title {
+        font-size: 35px;
+        font-family: Metropolis-Bold;
+        text-align: center;
+    }
+    
+    footer {
+        background-color: $them;
+        color: #fff !important;
+        h4 {
+            color: #fff;
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 0px;
+        }
+        a {
+            color: #fff !important;
+            text-decoration: none;
+            font-family: Metropolis-regular;
+        }
+        hr {
+            height: 2px !important;
+            opacity: 1;
+            margin-top: 7px;
+            width: 76%;
+        }
+        li {
+            line-height: 40px;
+        }
+    }
+    
+    .how-heading-hr {
+        height: 2px !important;
+        color: #28A79E;
+        opacity: 1;
+        width: 7%;
+    }
+    
+    .best-heading-hr {
+        height: 2px !important;
+        color: #28A79E;
+        opacity: 1;
+        width: 25%;
+    }
+    
+    .blog-heading-hr {
+        height: 2px !important;
+        color: #28A79E;
+        opacity: 1;
+        width: 3%;
+    }
+    
+    // media
+    @media screen and (max-width: 992px) {
+        .section-title {
+            font-size: 30px;
+        }
+        .pt-100 {
+            padding-top: 100px !important;
+        }
+        .blog-detail-title {
+            font-size: 25px;
+        }
+    }

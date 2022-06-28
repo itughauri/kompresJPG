@@ -1,0 +1,13 @@
+<svg id="Group_6106" data-name="Group 6106" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Rectangle_486" data-name="Rectangle 486" fill="none" stroke="#28a79e" stroke-width="1">
+    <rect width="40" height="40" rx="20" stroke="none"/>
+    <rect x="0.5" y="0.5" width="39" height="39" rx="19.5" fill="none"/>
+  </g>
+  <g id="Group_4740" data-name="Group 4740" transform="translate(9.803 11.339)">
+    <path id="Path_9829" data-name="Path 9829" d="M122.826,75l-5.1,3.248,5.1,3.248,5.1-3.248Z" transform="translate(-117.728 -74.997)" fill="#0061ff"/>
+    <path id="Path_9830" data-name="Path 9830" d="M240.554,75l-5.1,3.248,5.1,3.248,5.1-3.248Z" transform="translate(-225.259 -74.997)" fill="#0061ff"/>
+    <path id="Path_9831" data-name="Path 9831" d="M117.729,153.244l5.1,3.248,5.1-3.248-5.1-3.248Z" transform="translate(-117.729 -143.5)" fill="#0061ff"/>
+    <path id="Path_9832" data-name="Path 9832" d="M240.552,150l-5.1,3.248,5.1,3.248,5.1-3.248Z" transform="translate(-225.258 -143.501)" fill="#0061ff"/>
+    <path id="Path_9833" data-name="Path 9833" d="M176.591,203.247l5.1,3.248,5.1-3.248-5.1-3.248Z" transform="translate(-171.493 -189.173)" fill="#0061ff"/>
+  </g>
+</svg>

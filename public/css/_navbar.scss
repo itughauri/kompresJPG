@@ -1,0 +1,55 @@
+$jpg-btn: #ED5929;
+$jpg-text:#404040;
+$them:#28A79E;
+.navbar {
+    background-color: #EBF1F8;
+    border-bottom: 1px solid #fff;
+    .nav-link {
+        color: #1D1D1D !important;
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        font-family: Metropolis-regular;
+        position: relative;
+    }
+    .contactus-btn {
+        border: 1px solid $them;
+        border-radius: 21px;
+        color: $them;
+        font-weight: 600;
+        font-size: 16px;
+        font-family: Metropolis-semiBold;
+    }
+}
+
+.contactus-btn:hover {
+    background-color: $them !important;
+    color: #fff !important;
+}
+
+@media screen and (min-width: 992px) {
+    .nav-link:before {
+        content: "";
+        position: absolute;
+        width: 84%;
+        height: 2px;
+        bottom: 3px;
+        left: 8%;
+        background-color: #1D1D1D;
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out 0s;
+    }
+    .nav-link:hover:before {
+        visibility: visible;
+        transform: scaleX(1);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .navbar {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+    }
+}
